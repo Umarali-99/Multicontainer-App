@@ -5,7 +5,7 @@ module.exports = {
   USER: process.env.PGUSER,
   PASSWORD: process.env.PGPASSWORD, //123
   DB: process.env.PGDATABASE, //testdb
-  DIALECT: process.env.DIALECT,
+  DIALECT: process.env.PGDIALECT,
   PORT: process.env.PGPORT,
   pool: {
     max: 5,
